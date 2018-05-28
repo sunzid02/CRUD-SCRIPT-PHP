@@ -88,6 +88,12 @@
           </div>
         </div>
         <div class="form-group">
+          <label class="control-label col-sm-2" for="limit">Insertion Limit:</label>
+          <div class="col-sm-8">
+            <input type="number" class="form-control" id="limit" placeholder="Enter data transfer Limit" name="limit" required>
+          </div>
+        </div>
+        <div class="form-group">
           <label class="control-label col-sm-2" for="criteria" required>Criteria:</label>
           <div class="col-sm-8">
             <select class="form-control" name="criteria">
@@ -97,14 +103,6 @@
             </select>
           </div>
         </div>
-        <!-- <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <div class="checkbox">
-              <label><input type="checkbox" name="remember"> Remember me</label>
-            </div>
-          </div>
-        </div> -->
-
     </div>
 
 
